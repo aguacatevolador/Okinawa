@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
+  font-size: 20px;
+}
+.encabezado {
+  background-color: #2c7884;
+  margin-bottom: 30px;
+}
+nav {
+  font-size: 18px;
+}
+nav a:link {
+  margin-right: 10px;
+}
+.contenedor {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3facbd;
+}
+
+h1 {
+  font-size: 26px;
+  font-style: italic;
+  color: #000;
+}
+
+h2 {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-left: px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+p {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+footer {
+  background-color: #2c7884;
+}
+.enlistado {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.pie-de-autor {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Styling links */
+a:link {
+  color: #ffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffff;
+}
+
+a:hover {
+  color: #0099ff;
+  font-weight: bold;
+  text-decoration: underline #c7c2c0;
+}
+
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
+
+#boton {
+  font-size: 22px;
+  padding: 20px;
+  color: #fff;
+  background-color: #010f11;
+  cursor: pointer;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imagen-presentacion {
+  display: flex;
+  align-items: flex-start;
+}
+.pie-de-imagen {
+  font-size: 16px;
+  font-style: italic;
+}
+.atractivos-img {
+  display: flex;
+  width: 40%;
+  height: auto;
+  margin-left: 50px;
+}
+
+#video-titulo {
+  margin-left: 400px;
+}
+#okinawa-video {
+  margin-left: 400px;
+}
+
+#video-historia {
+  margin-left: 400px;
+}
+
+.img-ciudades {
+  display: flex;
+  width: 30%;
+  height: auto;
+}
